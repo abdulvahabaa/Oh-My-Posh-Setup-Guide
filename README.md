@@ -106,6 +106,8 @@ Install **Oh My Posh** via Winget:
 winget install JanDeDobbeleer.OhMyPosh --source winget --scope user --force
 ```
 
+#### 🔁 After installation, close and restart PowerShell to apply changes and avoid any startup errors.
+
 📖 Official Docs: [Oh My Posh Installation Guide](https://ohmyposh.dev/docs/installation/windows)
 
 ---
@@ -151,7 +153,7 @@ oh-my-posh get shell
 ### Open your PowerShell profile:
 
 ```powershell
-notepad $PROFIL
+notepad $PROFILE
 ```
 
 If the profile doesn’t exist, create it:
